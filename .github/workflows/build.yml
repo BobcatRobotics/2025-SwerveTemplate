@@ -16,4 +16,5 @@ jobs:
         working-directory: ./Base
         run: chmod +x gradlew
       - name: Build robot code
+        working-directory: ./Base
         run: ./gradlew build
