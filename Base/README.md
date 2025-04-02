@@ -1,0 +1,1 @@
+This is a complete template project for the 6328 Mechanical Advantage Swerve project running CTRE hardware. This is designed to make it easy to get the proejct up and runnign without going to many different places. This should be copied prior to running the steps as described at https://docs.advantagekit.org/getting-started/template-projects/talonfx-swerve-template .
