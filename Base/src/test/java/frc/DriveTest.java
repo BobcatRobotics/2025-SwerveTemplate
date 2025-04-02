@@ -3,11 +3,11 @@ package frc.robot;
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 import frc.robot.generated.TunerConstants;
-import frc.robot.subsystems.drive.Drive;
-import frc.robot.subsystems.drive.GyroIO;
-import frc.robot.subsystems.drive.GyroIOPigeon2;
-import frc.robot.subsystems.drive.ModuleIO;
-import frc.robot.subsystems.drive.ModuleIOTalonFX;
+import frc.robot.subsystems.drive.CTRE.Drive;
+import frc.robot.subsystems.drive.CTRE.GyroIO;
+import frc.robot.subsystems.drive.CTRE.GyroIOPigeon2;
+import frc.robot.subsystems.drive.CTRE.ModuleIO;
+import frc.robot.subsystems.drive.CTRE.ModuleIOTalonFX;
 import org.junit.jupiter.api.Test;
 
 public class DriveTest {
