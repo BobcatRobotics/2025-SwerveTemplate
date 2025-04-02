@@ -12,9 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-      - name: change_directory
-        run: cd Base
       - name: Grant execute permission
+        working-directory: ./Base
         run: chmod +x gradlew
       - name: Build robot code
         run: ./gradlew build
